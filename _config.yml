@@ -1,9 +1,0 @@
-# Site settings
-title: R-VSCode
-description: Using R in Visual Studio Code through SSH server
-theme: jekyll-theme-minimal
-
-# Exclusion settings
-exclude:
-  - index.html
-  - _config.yml
