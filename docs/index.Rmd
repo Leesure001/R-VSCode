@@ -67,8 +67,8 @@ Enable `r.bracketedPaste` in Visual Studio Code settings: Open Visual Studio Cod
 
 Type the following commands in the termial: Suppose your R version in your environemnt is R-4.1.2
 ```r
-which(R-4.1.2)
-which(radian)
+which R-4.1.2
+which radian
 ```
 This will return the paths for **R** and **radian**. Suppose your **R** path is `/home/user/.local/bin/R-4.1.2`, **radian** path is `/home/user/.local/bin/radian`, then
 
