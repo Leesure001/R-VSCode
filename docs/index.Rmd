@@ -78,6 +78,8 @@ This will return the paths for **R** and **radian**. Suppose your **R** path is 
 
 * Search `r.rterm.option` in Visual Studio Code setting, click `Add Item`, type `--r-binary=/home/user/.local/bin/R-4.1.2`, then save the change, remember change the **R** path to the **R** path in your own environment.
 
+**Reminder: There may be three choices when you search above three things in Visual Studio Code setting, `User`, `Remote`, `Workspace`, if you are using R in Visual Studio Code through SSH server, select `Remote`, if you are using R in Visual Studio Code in your local computer, select `User`, then modify `r.rterm.linux` and `r.rpath.linux` matching your local computer system.**
+
 # <span style="color: blue;">Other Option</span>
 
 You can also use the following code to install anaconda and use it to create a R environment, then following all the processes above.
