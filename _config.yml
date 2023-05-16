@@ -2,5 +2,5 @@ exclude:
   - README.md
   - LICENSE
   - .gitignore
-  - index.html
+  - R-VSCode.html
   - _config.yml
