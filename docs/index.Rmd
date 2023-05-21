@@ -15,6 +15,22 @@ This article provides a tutorial about using R in VS Code through SSH server, th
 
 Use the official [Visual Studio Code](https://code.visualstudio.com/) website to download and install Visual Studio Code matching your local computer system.
 
+# <span style="color: blue;">Connect to SSH Server</span>
+
+Add SSH host in Visual Studio Code using this extensions
+
+* Open command palette
+
+* Search for `Remote-SSH: Add New SSH Host...`
+
+* Type your command how you connect to the server
+
+* Select the SSH config file: you can use the default one, listing on the top `/Users/user.name/.ssh/config`
+
+* Now you can connect to your remote server successfully
+
+* Next time when you want to connect it, you can click the icon on the bottom left corner, select the host you want to connect, then you will connect to it easily
+
 # <span style="color: blue;">Install R</span>
 
 Use the official [R](https://cloud.r-project.org/) website to download and install R matching your server system.
@@ -28,6 +44,8 @@ Use the official [Python](https://www.python.org/) website to download and insta
 Install the extensions in the following picture in Visual Studio Code
 
 ![**Install extensions: Python, Pylance, R, R Debugger**](Extensions.png)
+
+**Note: If you are trying to use R in Visual Studio Code through SSH servre, please install all the above, including R, Python and extensions, and the following R packages, Python package, in your SSH server environemnt.**
 
 # <span style="color: blue;">Install Required R package</span>
 
